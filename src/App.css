@@ -1,0 +1,40 @@
+.box{
+    width:auto;
+    height:5rem;
+    position: absolute;;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: larger;
+
+}
+.nbox{
+
+
+}
+.nbox:after{
+    content:'开始下一道题:';
+    color: red;
+    position: absolute;
+    margin-top: -73%;
+    margin-left: -78%;
+}
+#root{
+    position: relative;
+    width: 90rem;
+    height: 35rem;
+}
+
+.correct{
+    margin-left: 37rem;
+    margin-top:25%;
+    width: 60px!important;
+    height: 60px!important;
+}
+.false{
+    margin-left:5rem;
+    width: 60px!important;
+    height: 60px!important;
+}
